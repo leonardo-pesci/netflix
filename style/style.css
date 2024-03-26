@@ -1,3 +1,27 @@
 body{
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 100;
+}
+
+.container{
+    margin: 0;
+}
+
+header div{
+    font-size: 0.8rem;
+    margin: 0;
+    gap: 40px;
+}
+
+#logo{
+    width: 100px;
+}
+
+.nav{
+    gap: 8px;
+}
+
+#sec-nav{
+    position: absolute;
+    right: 4%;
+    display: flex;
 }
