@@ -1,3 +1,7 @@
+:root{
+    --color-hover: black
+}
+
 body{
     font-weight: 100;
 }
@@ -20,8 +24,21 @@ header div{
     gap: 8px;
 }
 
+/* ! non funziona */
+#aa:hover{
+    color: black;
+}
+
 #sec-nav{
     position: absolute;
     right: 4%;
+    gap: 20px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+#div-bambini{
     display: flex;
 }
