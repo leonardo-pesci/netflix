@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0;
+}
+
 :root{
     --color-hover: black
 }
@@ -41,4 +51,21 @@ header div{
 
 #div-bambini{
     display: flex;
+}
+
+/* Home page */
+.home-page{
+    background-image: url(https://occ-0-2528-2581.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABY6aEJgeXu_OqaIITucovok9M-MOzr4Qdc6Mdi8oeTjA7jXOQ_Y0vj4TOK56LM6rXrJAzz3gT7nUaBUynD0pFGgXUAGJ3wep45Au.webp?r=721);
+    background-size: cover;
+    position: relative;
+}
+
+#hero-title{
+    width: 410px;
+    height: 164px;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    background-image: url(https://occ-0-2528-2581.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABTsqjd4RKeCZflTEtK7oWDlDC1N4el9tkWvFXB7Qx4JB76qqNU7ZpRkqDE5tv2FzrW82kC5a-OXvug0PizQ_RtuE6CUkecPQjz3VUi7iALDA2Va6_zBlpXpVb0KjgK9Gcys_ZinltMmZ9IoUmlWE4gzIygKGHBYFCufYcrpobZ8Rf2yxRIr6zQ.webp?r=fc6);
 }
